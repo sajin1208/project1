@@ -1,0 +1,148 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: aqua;
+}
+a{
+    padding: 10px;
+}
+h2{
+    padding: 5px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: aqua;
+
+}
+*/
+
+/* Resetting default styles */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting a clean background and font for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styling the navigation bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: aqua;
+}
+a{
+    padding: 10px;
+}
+
+/* Styling the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling the product container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Styling individual product boxes */
+.product {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Styling quantity input and add to cart button */
+input[type="text"] {
+    width: 50px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+#quantity{
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+table{
+    width: 100%;
+    padding: 20px;
+    background-color: yellowgreen;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-info span {
+    margin-bottom: 10px;
+}
+
+.contact-info .one i,
+.contact-info .three i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333; /* Change color as needed */
+}
+
+.contact-info .two a {
+    color: #333; /* Change color as needed */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-info .two a:hover {
+    text-decoration: underline;
+}
