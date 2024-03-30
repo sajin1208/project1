@@ -1,0 +1,88 @@
+/*navbar*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: aqua;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    justify-content: space-between;
+    top: 100;
+}
+.menu a,form{
+    float: inline-start;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+}
+.menu a:hover{
+    background-color: black;
+}
+.menu1{
+    width: 15%;
+    height: 80%;
+}
+.cart1{
+    float: right;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: 200px; /* Set a fixed height for consistency */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.img img {
+    width: 100%; /* Make the image fill its container */
+    height: 100%; /* Ensure the image fills the fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+
+/*footer*/
+.contact {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-info span {
+    margin-bottom: 10px;
+}
+
+.contact-info .one i,
+.contact-info .three i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333; /* Change color as needed */
+}
+
+.contact-info .two a {
+    color: #333; /* Change color as needed */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-info .two a:hover {
+    text-decoration: underline;
+}

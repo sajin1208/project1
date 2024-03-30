@@ -1,0 +1,157 @@
+/*navbar*/
+.menu{
+    background-color: aqua;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    justify-content: space-between;
+    top: 100;
+}
+.menu a,form{
+    float: inline-start;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+}
+.menu a:hover{
+    background-color: black;
+}
+.menu1{
+    width: 15%;
+    height: 80%;
+}
+.cart1{
+    float: right;
+}
+
+/*body*/
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* Content section styles */
+.sec {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Card styles (*/
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,3fr));
+}
+
+.products .card{
+    /* width: 240px; */
+    background-color: whitesmoke;
+    box-shadow: 0 10px 20px;
+    border-radius: 5px;
+    padding: 5px;
+    flex-direction: column;
+}
+.products .card img{
+    height: 50%;
+    width: 100%;
+}
+.products .card .desc{
+    padding: 5px 20px;
+    opacity: 0.5;
+}
+.products .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: aquamarine;
+    padding: 0 20px;
+}
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.products .card .box .price{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.products .card .box .btn{
+    font-size: 13px;
+    color: black;
+    padding: 10px 10px;
+    font-weight: 900;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+/*/
+
+
+/*footer*/
+.contact {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-info span {
+    margin-bottom: 10px;
+}
+
+.contact-info .one i,
+.contact-info .three i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333; /* Change color as needed */
+}
+
+.contact-info .two a {
+    color: #333; /* Change color as needed */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-info .two a:hover {
+    text-decoration: underline;
+}
+#category{
+    /* height: 500px; */
+    /* width: 100%; */
+    width: 100%;
+
+}
+main{
+    display: flex;
+}
+
